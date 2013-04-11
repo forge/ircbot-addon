@@ -10,6 +10,7 @@ package org.jboss.forge.irc;
 import org.jibble.pircbot.PircBot;
 
 /**
+ * This is the implementation of the Forge IRC Bot
  *
  * @author <a href="mailto:ggastald@redhat.com">George Gastaldi</a>
  *

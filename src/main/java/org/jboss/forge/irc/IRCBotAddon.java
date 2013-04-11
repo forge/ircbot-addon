@@ -12,7 +12,13 @@ import javax.inject.Inject;
 
 import org.jboss.forge.container.event.PostStartup;
 
-public class IRCBot
+/**
+ * This class listens for events in the forge container and connects in the forge channel using the forgebot nick
+ *
+ * @author <a href="mailto:ggastald@redhat.com">George Gastaldi</a>
+ *
+ */
+public class IRCBotAddon
 {
    @Inject
    private ForgeBot bot;
