@@ -10,7 +10,7 @@ package org.jboss.forge.irc;
 import javax.enterprise.event.Observes;
 import javax.inject.Inject;
 
-import org.jboss.forge.container.event.PostStartup;
+import org.jboss.forge.furnace.event.PostStartup;
 
 /**
  * This class listens for events in the forge container and connects in the forge channel using the forgebot nick
@@ -25,8 +25,9 @@ public class IRCBotAddon
 
    public void startup(@Observes PostStartup startup) throws Exception
    {
+//      bot.setVerbose(true);
       bot.connect("irc.freenode.net");
-      bot.changeNick("forgebot");
+      bot.changeNick("furnacebot");
       bot.joinChannel("#forge");
    }
 }

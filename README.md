@@ -12,6 +12,6 @@ To install it, be sure to install in your local maven repository and then run
 
 Or if you have the Eclipse plugin installed in your repository, use the following coordinates after installing in your local maven repository:
 
-    GroupId: org.jboss.forge
+    GroupId: org.jboss.forge.addon
     ArtifactId: ircbot
     Version: LATEST
